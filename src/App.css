@@ -1,0 +1,68 @@
+.container1 {
+  margin-top: 5em;
+  margin-left: 3em;
+  margin-right: 0em;
+  width: 40%;
+}
+.container2 {
+  margin-left: 0em;
+  margin-top: 5em;
+  width: 30%
+}
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-check-input {
+  margin-right: 0em;
+  padding-right: 0em;
+}
+img {
+  padding: 2em;
+}
+.text-center {
+  margin-top: 1em;
+}
+#light .navbar-brand {
+  color :black;
+}
+#light .navbar {
+  background-color: whitesmoke;
+}
+#light .form-check-label {
+  color: black;
+}
+#light .text-center {
+  color: teal;
+  font-style: italic;
+}
+#light .mainheading {
+  color: black;
+}
+#light .card {
+  border-color: darkslategrey;
+  border-radius: 2em;
+  box-shadow: 3px 3px slategrey;
+}
+#dark .navbar {
+  background-color: rgb(31, 29, 29);
+}
+#dark .mainhead, .mainheading {
+  color: antiquewhite;
+}
+#dark {
+  background-color: black;
+}
+#dark .navbar-brand , .form-check-label{
+  color: white;
+}
+#dark .text-center {
+  color: burlywood;
+  font-style: italic;
+}
+#dark .card {
+  border-color: dimgrey;
+  border-radius: 2em;
+  box-shadow: 3px 3px rgb(34, 34, 34);
+}
